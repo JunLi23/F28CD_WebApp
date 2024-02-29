@@ -49,3 +49,39 @@
     margin: auto;
     Padding: 30px
   }
+
+  .carousel {
+    position: relative;
+ }    
+
+ .carousel-control-prev , .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: TranslateY(-50%);
+ }
+ .carousel-control-prev {
+    right: auto;
+    left: 20px;
+ }
+ .carousel-control-next {
+    left: auto;
+    right: 20px;
+ }
+
+ .custom-checkbox input[type="checkbox"] {
+  position: fixed;
+  z-index: -10;
+  opacity: 0;
+  left: 0;
+  top: 0;
+}
+
+.inputPad {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.xtra {
+  width: 110px;
+  height: auto;
+}
