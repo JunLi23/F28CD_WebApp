@@ -29,43 +29,13 @@
   margin-left: 20px;
 }
 
-.navbar ul {
-  list-style: none;
-  text-align: center;
-  margin-right: 42%;
-}
-
-.navbar ul li {
-  list-style: none;
-  display: inline-block;
-  margin: 0 20px;
-  position: relative;
-}
-
-.navbar ul li a {
-  text-decoration: none;
+.nav-item {
   color: #DD2D4A;
-  text-transform: uppercase;
 }
 
-.navbar ul li::after {
-  content: '';
-  height: 3px;
-  width: 0;
-  background: #BE152C;
-  position: absolute;
-  left: 50%;
-  bottom: 9%;
-  transform:translateX(-50%);
-  transition: 0.5s;
-}
-.navbar ul li:hover:after {
-      width: 100%;
-}
-
-.logo {
-  width: 150px;
-  cursor: pointer;
+.nav-item:hover {
+  color: #BE152C;
+  text-decoration: underline;
 }
 
 .card1{
