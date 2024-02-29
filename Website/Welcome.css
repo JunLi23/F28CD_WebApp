@@ -1,3 +1,11 @@
+:root {
+  --bs-purple: #7452AC;
+}
+
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #D3CCE8;
@@ -33,7 +41,6 @@ transform: translate(-50%, -50%);
 }
 
 h1 {
-  font-family: 'Times New Roman', Times, serif;
   padding: 30px;
   margin: auto;
 }
@@ -43,11 +50,6 @@ form {
   Padding: 30px
 }
 
-.btn {
-  color: #7452AC;
-  width: 100px;
-}
-
-.btn-outline-light {
-  color: #7452AC
+.center {
+  position: absolute;
 }
