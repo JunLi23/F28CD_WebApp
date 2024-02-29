@@ -44,6 +44,7 @@
   box-sizing: border-box;
   cursor: pointer;
   margin: 55px 10%;
+  margin-bottom: 20px;
   width: 40%;
   height: 50%;
   position: absolute;
@@ -122,6 +123,7 @@
   box-sizing: border-box;
   cursor: pointer;
   margin: 55px 55%;
+  margin-bottom: 20px;
   width: 40%;
   height: 50%;
   position: absolute;
