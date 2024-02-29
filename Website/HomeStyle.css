@@ -20,6 +20,11 @@
   justify-content: space-between;
 }
 
+.navbar-brand {
+  margin-left: 10px;
+  text-align: center;
+}
+
 .navbar ul {
   list-style: none;
   text-align: center;
