@@ -87,3 +87,12 @@
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
     }
+
+.blur {
+     filter: blur(10px);
+}
+
+.blurry-text {
+    color: transparent;
+    text-shadow: 0 0 2px, white;
+ }
