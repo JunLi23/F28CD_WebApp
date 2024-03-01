@@ -96,3 +96,8 @@
     color: transparent;
     text-shadow: 0 0 2px, white;
  }
+
+ img {
+    overflow: auto;
+    text-align: right;
+ }
