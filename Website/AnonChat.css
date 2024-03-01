@@ -101,3 +101,8 @@
     overflow: auto;
     text-align: right;
  }
+
+ .container {
+    padding: 50px;
+    justify-content: center;
+}
