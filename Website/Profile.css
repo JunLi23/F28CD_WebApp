@@ -1,0 +1,57 @@
+body {
+    background-color: #9285ba;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    max-width: 800px; 
+}
+
+.profile-card {
+    max-width: 300px;
+    margin: 4rem 0;
+    position: relative;
+}
+
+.love-connections {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #563d7c;
+    color: #fff;
+    padding: 0.5rem;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.side-panel {
+    width: 200px;
+    background-color: #563d7c;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-right: 50px;
+}
+
+.settings-btn {
+    width: 100%;
+    background-color: #6c4b91;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.settings-subsection {
+    margin-bottom: 0.5rem;
+}
