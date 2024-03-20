@@ -9,35 +9,41 @@
   .navbar {
     overflow: hidden;
     background-color: #D3CCE8;
+    color: #DD2D4A;
     position: fixed;
     top: 0;
     width: 100%;
-    height: 50px;
+    height: 10%;
+    justify-content: space-between;
+    z-index: 1000;
   }
   
-  .navbar img{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  .navbar img {
+    height: 40px;
+    width: 80px;
   }
   
-  
-  .navbar-brand {
-    padding: 10px;
+  .container-fluid {
+    width: calc(100% - 40px);
+    height: 10%;
+    margin: 0 auto;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
   }
   
-  .smalllogo {
-    margin-left: 10px;
+  .banner .navbar-nav {
+    float: right;
   }
   
+  .nav-item {
+    color: #DD2D4A;
+  }
   
-  .navbar ul {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 20px;
-    height: 80px;
-    line-height: 80px;
+  .nav-item:hover {
+    color: #BE152C;
+    text-decoration: underline;
   }
   
   h1 {
