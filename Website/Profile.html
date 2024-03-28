@@ -59,15 +59,13 @@
             </div>
 
             <div class="card parameters">
-                <ul>
-                    <li><a ref="#">accessibility</a></li>
-                    <li><a ref="#">language</a></li>
-                    <li><a ref="#">help</a></li>
-                    <li><a ref="#">blocked</a></li>
-                </ul>
+                <a ref="#">accessibility</a>
+                <a ref="#">language</a>
+                <a ref="#">help</a>
+                <a ref="#">blocked</a>
             </div>
 
-            <div class="button log_out">
+            <div class="button log_out" id="log_button">
                 <h2><b>log out</b></h2>
             </div>
 
@@ -114,3 +112,11 @@
         }
     }, 20)
 </script>
+
+<script>
+    const card = document.getElementById('log_button');
+
+    card.addEventListener('click', function() {
+      window.location.href = 'Login.html';
+    });
+  </script>
