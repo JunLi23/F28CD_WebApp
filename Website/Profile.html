@@ -44,9 +44,10 @@
                     <h3 class="nameNage"><b>Sarah 23</b></h3>
                 </div>
                 <div class="card s3">
-                    <h3>
-                        Lorem ipsum dolor sit amet, conse ctetur  ipiscing elit, sed do eiusmod tempor sum dolor sit amet, conse jhd
-                    </h3>
+                    <form>
+                        <label for="description"><b>description:</b></label>
+                        <input type="text" id="description" name="description" value="" placeholder="enter your description...">
+                    </form>
                 </div>
             </div>
 
@@ -59,39 +60,28 @@
             </div>
 
             <div class="card parameters">
-                <a ref="#">accessibility</a>
-                <a ref="#">language</a>
-                <a ref="#">help</a>
-                <a ref="#">blocked</a>
+                <div class="card-body">
+                    <ul class="vertical-menu">
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">language</a></li>
+                        <li><a href="#">help</a></li>
+                        <li><a href="#">blocked</a></li>
+                    </ul>
+                </div>
             </div>
 
             <div class="button log_out" id="log_button">
                 <h2><b>log out</b></h2>
             </div>
 
-            <div class="rating">
-                <div class="outer">
-                    <div class="inner">
-                        <div id="number">
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
-                <defs>
-                   <linearGradient id="GradientColor">
-                      <stop offset="0%" stop-color="#e91e63" />
-                      <stop offset="100%" stop-color="#673ab7" />
-                   </linearGradient>
-                </defs>
-                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
-            </svg>
 
             <div class="connections">
                 <img src="Images/heart.png" class="heart">
                 <h2 class = "IDK">263 CONNECTIONS since joining in 2024</h2>
+            </div>
+
+            <div class="skill">
+                
             </div>
             
         
@@ -99,19 +89,6 @@
     </body>
 </html>
 
-<script>
-    let number = document.getElementById("number");
-    let counter = 0;
-    setInterval(() => {
-        if(counter == 100){
-            clearInterval()
-        }
-        else{
-            counter += 1;
-            number.innerHTML = counter + " out of 100\n overall rating"
-        }
-    }, 20)
-</script>
 
 <script>
     const card = document.getElementById('log_button');
