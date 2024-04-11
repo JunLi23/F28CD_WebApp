@@ -58,7 +58,7 @@
              </div>
 
             <div class="col-md-1">
-                <div class="card card2">
+                <div class="card card2" id="MyCard">
                     <h2>
                         Start Anonymous Chatting
                     </h2>
@@ -69,10 +69,10 @@
 
         </div>
 
+        <H1 class = "about_us"><b>About Us:</b></H1>
+
         <div class="row">
             <div class="col-md-12">
-
-                <H1>About Us</H1>
 
                 <div class="card card3">
                     <h2>
@@ -91,7 +91,13 @@
                 </div>
             </div>
         </div>
-
-        </div>
     </body>
+
+    <script>
+        const card = document.getElementById('MyCard');
+    
+        card.addEventListener('click', function() {
+          window.location.href = 'AnonChat.html';
+        });
+      </script>
 </html>
