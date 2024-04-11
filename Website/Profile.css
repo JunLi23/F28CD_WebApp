@@ -1,6 +1,10 @@
 * {
     font-family: 'Times New Roman', Times, serif;
   }
+
+  body{
+    zoom: 100%;
+  }
   
   .banner {
       width: 100%;
@@ -16,6 +20,7 @@
   }
   
   .navbar {
+    position: fixed;
     overflow: hidden;
     background-color: #D3CCE8;
     color: #DD2D4A;
@@ -28,10 +33,10 @@
   }
   
   .navbar img {
-    left: -7px;
-    height: 55%;
-    width: 171px;
     position: absolute;
+    left: -2%;
+    height: 55%;
+    width: 6%;
   }
   
   .container-fluid {
