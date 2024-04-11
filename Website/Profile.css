@@ -28,7 +28,7 @@
   }
   
   .navbar img {
-    left: 0;
+    left: -7px;
     height: 55%;
     width: 171px;
     position: absolute;
@@ -47,9 +47,9 @@
     float: right;
   }
   
-.navbar-collapse {
-  margin-left: 35px;
-}
+  .navbar-collapse {
+    margin-left: 35px;
+  }
 
 
   .nav-item {
@@ -93,6 +93,7 @@
     width: 35%;
     height: 70%;
     background-color: #8452AC;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
   }
 
   .Preview{
@@ -111,18 +112,31 @@
   .s1
   {
     position: relative;
-    background-color: #8452AC;
     width: 25%;
-    height: 8%;
+    height: 15%;
     left: 5%;
     top: -3%;
     border: none;
+    overflow: hidden;
   }
 
-  .nameNage{
-    text-align: center;
+  .s1 input[type=text]{
+    border: none;
+    margin-top: -15px;
+    width: 100%;
+    text-indent: 25%;
+    font-weight: 700;
+    height: 150px;
+    width: 100%;
+    appearance: none;
     color: #fff;
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    font-size: 22px;
+    background-color: #8452AC;
+  }
+
+  .s1 input[type=text]::placeholder{
+    text-indent: 25%;
+    color: #fff;
   }
 
   .s3{
@@ -146,9 +160,8 @@
     margin-bottom: 20px;
   }
 
-  input[type=text]{
+  .s3 input[type=text]{
     display: block;
-    width: 100%;
     text-indent: 15px;;
     font-weight: 700;
     height: 150px;
@@ -177,9 +190,9 @@
     transition: transform 0.5s;
   }
 
-.premium:hover{
-  transform: translateY(-10px);
-}
+  .premium:hover{
+    transform: translateY(-10px);
+  }
 
   .premium h2{
     color: #fff;
@@ -201,6 +214,7 @@
     background-color: #8C75B3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
   }
+
   .settings h2{
     color: #fff;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 1);
@@ -221,32 +235,31 @@
     border-top: none;
     border-right: none;
   }
+
   .card-body {
     padding: 20px;
-}
+  }
 
-.vertical-menu {
+  .vertical-menu {
     list-style-type: none;
     padding: 0;
     margin: 0;
-}
+  }
 
-.vertical-menu li {
+  .vertical-menu li {
     display: block;
-}
+  }
 
-.vertical-menu li a {
+  .vertical-menu li a {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     display: block;
     padding-bottom: 30px;
     text-decoration: none;
     color: #1E90FF;
-    font-size: 22px;
+   font-size: 22px;
     text-indent: 15px;
-}
-
-.vertical-menu li a:hover {
-    background-color: #f4f4f4;
-}
+    position: relative;
+  }
 
   .log_out{
     position: absolute;
@@ -284,6 +297,7 @@
     left: 75%;
     width: 500px;
   }
+  
   .heart{
     position: relative;
     top:50%;
@@ -291,7 +305,8 @@
     margin-top: -100%;
     opacity: 0.75;
   }
-.IDK{
+
+  .IDK{
     margin-left: 20%;
     position: relative;
     left: 70px;
@@ -299,4 +314,5 @@
     margin-top: -15%;
     width: 60%;
     color: #fff;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 1);
   }
