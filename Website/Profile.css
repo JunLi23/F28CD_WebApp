@@ -3,7 +3,7 @@
   }
 
   body{
-    zoom: 100%;
+    zoom: 95%;
   }
   
   .banner {
@@ -26,7 +26,7 @@
     color: #DD2D4A;
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
     height: 10%;
     justify-content: space-between;
     z-index: 1000;
